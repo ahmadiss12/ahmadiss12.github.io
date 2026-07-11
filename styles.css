@@ -407,6 +407,10 @@ a {
   padding: 24px;
 }
 
+.project-grid .project:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+}
+
 .project-label {
   margin: 0 0 10px;
   color: var(--teal-dark) !important;
